@@ -17,22 +17,22 @@ app.use(express.static('public'));
 
 app.get('/', (req, res)=>{
     res.render('home', {
-        titulo: 'Curso de node',
-        desarrollo: 'Ramiro Tello'
+        titulo: 'Engorda',
+        desarrollo: 'Canada'
     });
 });
 
 app.get('/generic', (req, res)=>{
     res.render('generic',{
-        titulo: 'Curso de node',
-        desarrollo: 'Ramiro Tello'
+        titulo: 'Engorda',
+        desarrollo: 'Canada'
     });
 });
 
 app.get('/elements', (req, res)=>{
     res.render('elements',{
-        titulo: 'Curso de node',
-        desarrollo: 'Ramiro Tello'
+        titulo: 'Engorda',
+        desarrollo: 'Canada'
     });
 });
 
